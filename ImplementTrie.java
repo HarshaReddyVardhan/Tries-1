@@ -1,3 +1,10 @@
+// Time Complexity (for all operations)
+// insert, search, startsWith: O(L) where L is the length of the word/prefix.
+
+// Space Complexity
+// O(N × 26) where N is the total characters inserted — because each node has a fixed array of 26 pointers (for lowercase 'a' to 'z').
+
+
 class Trie {
     class TrieNode{
         boolean isEnd;
